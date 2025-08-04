@@ -1,9 +1,7 @@
-Tools & Technologies
-
 IBM Watson Studio + AutoAI for model development
-
 Python (AutoAI backend) for preprocessing & model logic
-
 CSV dataset sourced from AI Kosh (IndiaAI)
-
 Watson Machine Learning Deployment with a REST API endpoint
+Auto AI framework (built-in inside Watson Studio)
+scikit-learn – Used under the hood for ML pipelines
+

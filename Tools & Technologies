@@ -1,7 +1,23 @@
-IBM Watson Studio + AutoAI for model development
-Python (AutoAI backend) for preprocessing & model logic
-CSV dataset sourced from AI Kosh (IndiaAI)
-Watson Machine Learning Deployment with a REST API endpoint
-Auto AI framework (built-in inside Watson Studio)
-scikit-learn – Used under the hood for ML pipelines
+ Tools & Technologies
+IBM Watson Studio
+IBM Watson AutoAI
+IBM Cloud Object Storage
+Python (for optional scripting & post-processing)
+Official Government Datasets from PMGSY/Ministry of Rural Development
 
+
+Approach:-
+Data Upload: Uploaded structured dataset to IBM Cloud Object Storage
+
+AutoAI Configuration:
+Selected classification as the problem type
+AutoAI split data, selected pipelines, and optimized models
+Model Training: Multiple pipelines created, trained, and evaluated
+
+Evaluation Metrics:
+Accuracy
+Precision / Recall
+ROC-AUC
+
+Model Selection: Best performing pipeline chosen based on validation metrics
+Deployment: Model made available as a deployable service/API via Watson Machine Learning
